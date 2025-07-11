@@ -10,15 +10,15 @@ export const routes = [
     path: "/",
     element: <GlobalLayout />,
     children: [
-      { path: "/", element: <Index /> },
-      { path: "/products", element: <PoroductsIndex /> },
-      { path: "/products/:id", element: <ProductsId /> },
+      { path: "/viteNewVersionStudy/", element: <Index /> },
+      { path: "/viteNewVersionStudy/products", element: <PoroductsIndex /> },
+      { path: "/viteNewVersionStudy/products/:id", element: <ProductsId /> },
     ],
   },
 ];
 
 export const pages = [
-  { route: "/" },
-  { route: "/products" },
-  { route: "/products/:id" },
+  { route: "/viteNewVersionStudy/" },
+  { route: "/viteNewVersionStudy/products" },
+  { route: "/viteNewVersionStudy/products/:id" },
 ];
